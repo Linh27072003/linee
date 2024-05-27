@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éng's Crochet</title>
+    <link rel="stylesheet" href="eng.css">
+    <link rel="stylesheet" href="icon/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="website icon" type="png" href="img/website icon 3.png">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="img/logo3.png" alt="" class="logo">
+            <div class="navigation">
+                <div class="nav-left">
+                    <ul class="nav">
+                        <li class="nav-list"><a href="#">HOME</a></li>
+                        <li class="nav-list">
+                            <a href="#shop">SHOP</a>
+                            <ul class="subnav subnav-shop">
+                                <li><a href="">Flowers</a></li>
+                                <li><a href="">Animals</a></li>
+                                <li><a href="">Clothes</a></li>
+                                <li><a href="">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#blog">BLOG</a>
+                            <ul class="subnav subnav-blog">
+                                <li><a href="">Flowers Chart</a></li>
+                                <li><a href="">Animals Chart</a></li>
+                                <li><a href="">How to crochet</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-list"><a href="#about-us">ABOUT</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav">
+                        <li class="nav-list"><a href="#question"><i class="nav-icon fa-regular fa-envelope"></i>CONTACT</a></li>
+                        <li class="nav-list"><a href="tel:0363800313"><i class="nav-icon fa-solid fa-phone"></i>0363800313</a></li>
+                        <li class="nav-list">
+                            <div class="search">
+                                <input type="text" class="searchTerm">
+                                <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div></li>
+                        <li class="nav-list">
+                            <div class="shopping">
+                                <i class="nav-icon fa-solid fa-cart-shopping"></i>
+                                <div class="quantity">0</div>
+                            </div></li>
+                        <li class="nav-list"><button class="btnLogin-popup"><i class="nav-icon fa-regular fa-user"></i></button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cart">
+                <h2>Cart <button class="btn-close closeShopping"><i class="fa-solid fa-xmark"></i></button></h2>
+                <ul class="listCart">
+                </ul>
+                <div class="checkout">
+                    <div class="total">0 <sup>đ</sup> </div>
+                    <div class="Pay">Pay</div>
+                </div>
+            </div>
+
+            <div class="login-container">
+                <div class="wrapper">
+                    <span class="close-icon"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="form-box login">
+                        <h2>LOGIN</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <input type="email" required>
+                                <label for="">Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon" id="showPassword">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </span>
+                                <input id="inputPassword" type="password" required>
+                                <label for="">Password</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label for=""><input type="checkbox">Remember me</label>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <button type="submit" class="btn-login">Login</button>
+                            <div class="login-register">
+                                <p>Dont't have an account? <a href="#" class="register-link">Register</a></p>
+                            </div>
+                        </form>
+                        <div class="media-option">
+                            <a href="">
+                                <i class="fa-brands fa-google"></i>
+                                <span>Login with Google</span>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>Login with Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="form-box register">
+                        <h2>REGISTRATION</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                                <input type="text" required>
+                                <label for="">Full name</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+                                <input type="tel" required>
+                                <label for="">Phone</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <input type="text" required>
+                                <label for="">Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon" id="showPasswordRegister">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </span>
+                                <input id="inputPasswordRegister" type="password" required>
+                                <label for="">Password</label>
+                            </div>
+                            <div class="remember-forgot">
+                                <label for=""><input type="checkbox">I agree to the terms & conditions</label>
+                            </div>
+                            <button type="submit" class="btn-login">Register</button>
+                            <div class="login-register">
+                                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                            </div>
+                        </form>
+                        <div class="media-option">
+                            <a href="">
+                                <i class="fa-brands fa-google"></i>
+                                <span>Login with Google</span>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>Login with Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote">
+                <h1 class="slogan">A wonderful gift for someone special.</h1>
+                <h4 class="text">When you make something by hand, it’s more than just a gift. This is the best kind of present: made with love.</h4>
+            </div>
+
+            <div class="btn-header">
+                <img src="img/leave.png" alt="">
+                <button class="btn-shop-now"><a href="#shop">Shop now</a></button>
+            </div>
+        </div>
+<!---------------------Container------------------->
+        <div class="container">
+            <div class="shop">
+                <div class="backgr">
+                    <div class="line-shop">
+                        <h2>SHOP BY CATAGROIES</h2>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="frame-left">
+                        <div class="frame-left-top">
+                            <img src="img/flower.jpg" alt="" class="layer1">
+                            <div class="layer2">
+                                <div class="line line-left-top">
+                                    <h2>Flowers</h2>
+                                </div>
+                                <button class="frame-shopnow btn-top">Shop now</button>
+                            </div>
+                        </div>
+                        <div class="frame-left-bottom">
+                            <img src="img/phukien.jpg" alt="" class="layer1">
+                            <div class="layer2">
+                                <div class="line line-left-bottom">
+                                    <h2>Accessory</h2>
+                                </div>
+                                <button class="frame-shopnow btn-bottom">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frame-right">
+                        <div class="frame-right-top">
+                            <img src="img/animal.jpg" alt="" class="layer1">
+                            <div class="layer2">
+                                <div class="line line-right-top">
+                                    <h2>Animals</h2>
+                                </div>
+                                <button class="frame-shopnow">Shop now</button>
+                            </div>
+                        </div>
+                        <div class="frame-right-bottom">
+                            <img src="img/clothes2.jpg" alt="" class="layer1">
+                            <div class="layer2">
+                                <div class="line line-right-bottom">
+                                    <h2>Clothes</h2>
+                                </div>
+                                <button class="frame-shopnow">Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="best-seller">
+                <div class="line-bestSeller">
+                    <h2>BEST SELLER</h2>
+                </div>
+                <div class="listProduct">
+            
+                </div>
+                <!-- <div class="products-bestSeller">
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best1.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Bó hoa len Handmade tone xanh đen
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                160000 <sup>đ</sup> <button class="addToCart">Buy</i></button>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best2.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Áo cup ngực handmade
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                150000 <sup>đ</sup>  <button class="addCart">Buy</i></button>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best4.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Thỏ nhồi bông
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                100000 <sup>đ</sup> <button class="addCart">Buy</i></button>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best3.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Dây chuyền nữ handmade
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                95000 <sup>đ</sup> <button class="addCart">Buy</i></button>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best6.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Vòng hoa đội đầu
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                80000 <sup>đ</sup> <button class="addCart">Buy</i></button>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="img/best5.jpg" alt="" class = "san-pham">
+                            <button class="btn-quick-view">Quick view</button>
+                        </div>
+                        <div class="name-product">
+                            <h3 class="name">
+                                Bó hoa cưới
+                            </h3>
+                            <div class="vote">
+                                <div class="vote-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h5>Đã bán 2,5k </h5>
+                            </div>
+                            <h4 class="price">
+                                250000 <sup>đ</sup> <button class="addCart">Buy</i></button>
+                            </h4>
+                            
+                        </div> 
+                    </div> 
+                </div> -->
+            </div>
+            <!---------------------our Products------------------->
+            <div class="ourProducts" id="shop">
+                <div class="line-bestSeller">
+                    <h2>OUR PRODUCTS</h2>
+                </div>
+                <div class="small-nav">
+                    <ul>
+                        <li class="small-nav-list"><a href="">All</a></li>
+                        <li class="small-nav-list"><a href="">Flowers</a></li>
+                        <li class="small-nav-list"><a href="">Clothes</a></li>
+                        <li class="small-nav-list"><a href="">Animals</a></li>
+                        <li class="small-nav-list"><a href="">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="product-list">
+                    <div class="row-product1 row">
+                        <div class="products" data-name="p-1">
+                            <div class="layer-product">
+                                <img src="img/pro1.jpg" alt=""><a href=""></a></img>
+                                
+                            </div>
+                            <div class="products-name">
+                                <h3>Mixed bouquet of 8 brown-toned crochet flowers</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-2">
+                            <img src="img/pro2.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Earrings</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-3">
+                            <img src="img/pro3.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Crochet "Forgot me not" bouquet</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-4">
+                            <img src="img/pro4.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Handmade necklace</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-5">
+                            <img src="img/pro5.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Mesh cardigan</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-product2 row">
+                        <div class="products" data-name="p-6">
+                            <img src="img/pro6.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Mixed color mini roses</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-7">
+                            <img src="img/pro7.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>The bunny</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-8">
+                            <img src="img/pro8.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Handmade jewelry set</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-9">
+                            <img src="img/pro9.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Cardigan</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-10">
+                            <img src="img/pro10.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Head wreath</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-product3 row">
+                        <div class="products" data-name="p-11">
+                            <img src="img/pro11.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Blue tuylip bouquet</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-12">
+                            <img src="img/pro12.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Handmade bag</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-13">
+                            <img src="img/pro13.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Bouquet of white lilies</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-14">
+                            <img src="img/pro14.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Crochet dragon</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                        <div class="products" data-name="p-15">
+                            <img src="img/pro15.jpg" alt=""><a href=""></a></img>
+                            <div class="products-name">
+                                <h3>Crochet wedding bouquet</h3>
+                                <p>100.000 <sup>đ</sup></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pages">
+                        <ul>
+                            <li class="pages-list"><a href=""><i class="fa-solid fa-angle-left"></i></a></li>
+                            <li class="pages-list"><a href="">1</a></li>
+                            <li class="pages-list"><a href="">2</a></li>
+                            <li class="pages-list"><a href="">...</a></li>
+                            <li class="pages-list"><a href="">8</a></li>
+                            <li class="pages-list"><a href=""><i class="fa-solid fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Show detail -->
+            <div class="products-preview">
+                <div class="preview" data-target="p-1">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro1.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Mixed bouquet of 8 brown-toned crochet flowers</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-2">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro2.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Accessories</a></h4>
+                            <h3>
+                                Earrings</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-3">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro3.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Crochet "Forgot me not" bouquet</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>Crochet gypsophila flowers are the embodiment of tenderness and innocence, not less. No wonder they are also called baby breath. They look beautiful as a bouquet crochet flowers, and you can make them last forever. Get the free crochet baby’s breath pattern for a newsletter subscription by the link below. Or follow the free video tutorial. The crochet baby’s breath flowers could be a great idea for a wedding bouquet; what do you think?</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-4">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro4.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Accessories</a></h4>
+                            <h3>
+                                Handmade necklace</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-5">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro5.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Clothes</a></h4>
+                            <h3>
+                                Mesh cardigan</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>What a great feeling it is to create something that could be a garment from a top-notch store! Peach Sorbet Top is one of those designs, because it’s stylish, beautifully made and perfect for summer. Lovely openwork at the top and little details at the bottom gives this top very sophisticated look, and peachy colour goes well with sun-kissed skin. </p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-6">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro6.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Mixed color mini roses</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-7">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro7.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Animals</a></h4>
+                            <h3>
+                                The bunny</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>It’s big! really big and soft crochet bunny that everybody will adore! Make it with a free pattern and prepare it as a gift for Easter or just in case. Every child will be happy to have such a cozy friend. But why only children — adults as well.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-8">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro8.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Accessories</a></h4>
+                            <h3>
+                                Handmade jewelry set</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-9">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro9.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Clothes</a></h4>
+                            <h3>
+                                Cardigan</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>This oversized crochet sweater is perfect for winter. Whether you want to make something to wear at home or are looking for a nice piece for your winter or fall outfit, it’s a match. Made with warm yarn, it will keep you toasty every second.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-10">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro10.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Accessories</a></h4>
+                            <h3>
+                                Head wreath</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-11">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro11.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Blue tuylip bouquet</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>Tulips are flowers that are gifted in some countries on International Women’s Day. What’s more, they are long-lasting and have a subtle scent. However, these crochet tulips will last you forever and won’t wither. Therefore you can enjoy them all year long. Imagine gifting your loved ones such a cute bouquet!</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-12">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro12.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Accessories</a></h4>
+                            <h3>
+                                Handmade bag</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>Crochet bags are the favorite accessories of every woman. So look, you can make your own perfect crochet handbag just the way you like it, isn’t it wonderful? With these stylish bags, you can carry all your stuff while exploring nature or walking down the promenade.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-13">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro13.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Bouquet of white lilies</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-14">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro14.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Animals</a></h4>
+                            <h3>
+                                Crochet dragon</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>These tiny fairy dragons could be a part of a fairy tale about kingdoms, pride and honor, force and justice. You can play with them with children or use them as special home decor.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview" data-target="p-15">
+                    <div class="preview-main">
+                        <div class="slide-show" id="slide-show-js">
+                            <div class="list-img">
+                                <img src="img/pro15.jpg" alt="">
+                                <img src="img/pro1.1.jpg" alt="">
+                                <img src="img/pro1.2.jpg" alt="">
+                                <img src="img/pro1.3.jpg" alt="">
+                            </div>
+                            <div class="changeSlide">
+                                <div class="change-left change"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="change-right change"><i class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="preview-content">
+                            <i class="fa-solid fa-xmark close-icon"></i>
+                            <h4><a href="">Flowers</a></h4>
+                            <h3>
+                                Crochet wedding bouquet</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-alt"></i>
+                                <span>(250)</span>
+                            </div>
+                            <p>The lily, tuylip flowers bouquet is a beautiful decoration for any home. It’s tender, colorful, and so lovely! And when they don’t need to care about them, it’s a perfect match. Make the bouquet with a beginner-friendly and free crochet lily, tuylip flowers pattern and enjoy its beauty daily.</p>
+                            <div class="price">100.000 <sup>đ</sup></div>
+                            <div class="choose-size">
+                                <button class="choose">S</button>
+                                <button class="choose">M</button>
+                                <button class="choose">L</button>
+                                <button onclick="addToCart" class="addToCart">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------about-us------------------->
+            <div class="about-us" id="about-us">
+                <div class="line-aboutUs">
+                    <h2>ABOUT US</h2>
+                </div>
+                <div class="about">
+                    <div class="about-text">
+                        <h1>Turn yarn into magic</h1>
+                        <p>We feel very blessed to wake up and go to work where we are surrounded by beautiful 
+                            crochets everyday. We want to share our love and passion of crochets with you!</p>
+                        <p>Our goal at Eng's Crochet is to produce beautiful crochet that you will never forget. 
+                            Because we're not just passionate about crochets we are passionate about our amazing customers. 
+                            Every arrangement that we make is unique; decors, gifts, sympathy, just because, and everywhere in-between. 
+                            </p>
+                        <p>Although crochets will always be our first love... We have much more inside our shop! 
+                            Great unique gifts and clothes for everyone in your life .. and we are constantly making new items in!
+                            So stop by and see us!
+                            We hope you enjoy our work as much as we enjoy bringing it to you.</p>
+                        <div class="btn">
+                            <button class="btn-about" type="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="about-img">
+                        <img src="img/about.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!---------------------blog------------------->
+            <div class="blog" id="blog">
+                <div class="line-aboutUs">
+                    <h2>BLOG</h2>
+                </div>
+                <h4><a href="">See all</a></h4>
+                <div class="blog-content">
+                    <div class="blog-list">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <p>21 September 2022</p>
+                            <h3>How to Crochet a Flower for Beginners + 33 Easy Patterns</h3>
+                            <span>Leap into spring with this step-by-step guide to crocheted flowers! 
+                                I'll show you how to crochet an easy flower step-by-step and then share my favorite free crochet flower patterns.
+                                We'll also cover unique supplies you'll need and how to use your crochet flowers to accent other projects.
+                            </span>
+                            <button class="btn-about" type="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="blog-list">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <p>21 September 2022</p>
+                            <h3>25 Free Crochet Plant, Succulent, and Cactus Patterns</h3>
+                            <span>If you can't keep a house plant alive to save your life, make one instead! 
+                                These free crochet plant patterns are fun, unique, and low-maintence, whether they're hanging from the ceiling or planted in a pot. 
+                            </span>
+                            <button class="btn-about" type="button">Read more</button>
+                        </div>
+                    </div>
+                    <div class="blog-list">
+                        <img src="img/blog4.jpg" alt="">
+                        <div class="blog-text">
+                            <p>21 September 2022</p>
+                            <h3>30+ LOVEABLE, EASY CROCHET ANIMAL PATTERNS</h3>
+                            <span>
+                                Lions, tigers, and bears, oh my! With these easy crochet amigurumi animal patterns you can make yourself a whole zoo of cute creatures. 
+                                This collection includes some of my favorite easy crochet stuffed animal patterns for beginner and intermediate makers. 
+                            </span>
+                            <button class="btn-about" type="button">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------question------------------->
+            <div class="question" id="question">
+                <div class="content-question">
+                    <div class="question-text">
+                    <h1>QUESTIONS?</h1>
+                    <p>We'd love to hear from you!</p>
+                </div>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" required>
+                        <div class="underline"></div>
+                        <label for="">Full name</label>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" required>
+                        <div class="underline"></div>
+                        <label for="">Email Address</label>
+                    </div>
+                    <div class="form-input textarea">
+                        <textarea cols="80" rows="8" required></textarea>
+                        <div class="underline line-mess"></div>
+                        <label for="">Message</label>
+                        
+                    </div>
+                </div>
+                <div class="accept">
+                    <lable class="accept-lable">
+                        <input type="checkbox" >
+                        I opt-in to receive marketing and promotional materals
+                    </lable>
+                    <p>This form is protected by reCAPCHA and the Google <a href="">Privacy Policy</a> and <a href="">Torms of Service apply.</a></p>
+                </div>
+                <div class="btn-form">
+                    <button class="btn-form-send" type="button">SEND</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+<!---------------------Footer------------------->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <img src="img/logo3.png" alt="">
+
+                </div>
+                <div class="footer-right">
+                    <div class="footer-col small-col">
+                        <h4><a href="">Shop</a></h4>
+                        <ul>
+                            <li class="footer-list"><a href="">Flowers</a></li>
+                            <li class="footer-list"><a href="">Clothes</a></li>
+                            <li class="footer-list"><a href="">Animals</a></li>
+                            <li class="footer-list"><a href="">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col small-col">
+                        <h4><a href="">Services</a></h4>
+                        <ul>
+                            <li class="footer-list"><a href="">Product Pricing</a></li>
+                            <li class="footer-list"><a href="">Helps & support</a></li>
+                            <li class="footer-list"><a href="">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><a href="">Contact</a></h4>
+                        <ul>
+                            <li class="footer-list"><a href="">0363800313</a></li>
+                            <li class="footer-list"><a href="">dothil127@gmail.com</a></li>
+                            <li class="footer-list"><a href="">Tan My, Bac Giang, Viet Nam</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><a href="">Opening Hours</a></h4>
+                        <ul>
+                            <li class="footer-list">Mon-Thur: 9:00 - 21:00</li>
+                            <li class="footer-list">Fri: 8:00 - 21:00</li>
+                            <li class="footer-list">Sat: 9:30 - 17:00</li>
+                            <li class="footer-list">Sun off</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>Copyright © Eng's Crochet 2023</p>
+                </div>
+                <div class="follow-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Linhmiu27?mibextid=ZbWKwL/" class="fb"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                         </ul>
+                </div>
+                <div class="pay">
+                    <img src="img/pay1.png" alt="">
+                    <img src="img/pay2.png" alt="">
+                    <img src="img/pay3.png" alt="">
+                    <img src="img/pay4.jpg" alt="">
+                    <img src="img/pay5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="eng.js"></script>
+</body>
+</html>
